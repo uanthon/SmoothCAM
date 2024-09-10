@@ -20,3 +20,4 @@ python save_h5.py --method=agcam  --save_root=.\saveroot --data_root=.\ILSVRC
 python ABPC.py --method=agcam --h5_root=.\saveroot --csv=True --file=True
 ```
 
+Please download the model from the ‘[ww](https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-vitjx/jx_vit_base_p16_224-80ecf9dd.pth)’ link first.
